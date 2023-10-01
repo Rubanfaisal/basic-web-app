@@ -2,15 +2,15 @@ name: CI/CD Pipeline
 
 on:
 
-push:
+  push:
 
-branches:
+    branches:
 
-- main
+      - main
 
 jobs:
 
-build:
+  build:
 
     runs-on: ubuntu-latest
 
